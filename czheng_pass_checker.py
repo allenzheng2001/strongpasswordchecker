@@ -8,7 +8,7 @@ def check_password():
 	pass_len = len(password)
 	length_req = len(password) >= 8 and len(password) <= 16
 
-	special_chars = ["!@#$"]
+	special_chars = "!@#$"
 
 	has_upper = False
 	has_lower = False
